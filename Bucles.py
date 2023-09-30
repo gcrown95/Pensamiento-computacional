@@ -7,3 +7,6 @@ for element in animales:
     
 for unit in color:
     print(unit)
+    
+for unit, element in zip(animales, color):
+    print(unit, element)
