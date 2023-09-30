@@ -1,5 +1,6 @@
+# List of elements to iter
 animales=["aranas", "perros","gatos", "saltamontes", "osos","leones", "tigres"]
 
-iterator= iter(animales)  
-    next(iterator)
-
+# First foor loop
+for element in animales:
+    print(element)
