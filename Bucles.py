@@ -10,3 +10,6 @@ for unit in color:
     
 for unit, element in zip(animales, color):
     print(unit, element)
+=======
+# Corrections on list proper
+print([x.title() for x in animales])
